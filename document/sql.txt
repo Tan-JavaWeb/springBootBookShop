@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS flyway_schema_history;
+ALTER TABLE app_role_user DROP FOREIGN KEY IF EXISTS app_role_user_FK1;
+ALTER TABLE app_role_user DROP FOREIGN KEY IF EXISTS app_role_user_FK2;
+DROP TABLE IF EXISTS  user;
+DROP TABLE IF EXISTS  role;
+DROP TABLE IF EXISTS app_role_user;

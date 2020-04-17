@@ -1,0 +1,1 @@
+INSERT INTO `app_role_users` (`id`, `users_id`, `role_id`) VALUES (NULL, '1', '2'), (NULL, '2', '1'), (NULL, '2', '2');
